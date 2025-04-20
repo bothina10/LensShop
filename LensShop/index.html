@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>lensShop </title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+            body {
+                  margin: 0;
+                  font-family: 'Arial', sans-serif;
+                  direction: rtl;
+                  background-color: #f2f2f2;
+            }
+
+            header {
+                  background-color: #222;
+                  color: white;
+                  padding: 20px 40px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+            }
+
+            header h1 {
+                  margin: 0;
+                  font-size: 32px;
+            }
+
+            nav ul {
+                  list-style: none;
+                  display: flex;
+                  gap: 20px;
+                  margin: 0;
+                  padding: 0;
+            }
+
+            nav ul li a {
+                  color: white;
+                  text-decoration: none;
+                  font-size: 18px;
+                  transition: color 0.3s;
+            }
+
+            nav ul li a:hover,
+            nav ul li a.active {
+                  color: #ffc107;
+            }
+
+            .hero {
+                  background-image: url('photo/bac.jpg');
+                  background-size: cover;
+                  background-position: center;
+                  height: 500px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: white;
+                  text-align: center;
+            }
+
+            .hero h2 {
+                  font-size: 48px;
+                  margin-bottom: 10px;
+            }
+
+            .hero p {
+                  font-size: 20px;
+            }
+
+            .features {
+                  display: flex;
+                  justify-content: space-around;
+                  padding: 50px 20px;
+                  background-color: #fff;
+            }
+
+            .feature {
+                  max-width: 300px;
+                  text-align: center;
+            }
+
+            .feature h3 {
+                  font-size: 24px;
+                  margin-bottom: 10px;
+            }
+
+            .feature p {
+                  font-size: 16px;
+                  color: #555;
+            }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+
+      </style>
+</head>
+
+<body>
+      <header>
+            <h1>lensShop</h1>
+            <nav>
+                  <ul>
+                        <li><a href="index.html" class="active">الرئيسية</a></li>
+                        <li><a href="cameras.html">الكاميرات</a></li>
+                        <li><a href="lenses.html">العدسات</a></li>
+                        <li><a href="accessories.html">الإكسسوارات</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                  </ul>
+            </nav>
+      </header>
+
+      <section class="hero">
+            <div>
+                  <h2 >مرحبًا بك في lensShop</h2>
+                  <p style="color:lavenderblush">أفضل مكان لشراء معدات التصوير والكاميرات والعدسات</p>
+            </div>
+      </section>
+
+      <section class="features">
+            <div class="feature">
+                  <h3>منتجات عالية الجودة</h3>
+                  <p>نوفر أفضل الكاميرات والعدسات من أشهر الماركات.</p>
+            </div>
+            <div class="feature">
+                  <h3>خدمة عملاء مميزة</h3>
+                  <p>دعم فني سريع للرد على جميع استفساراتك.</p>
+            </div>
+            <div class="feature">
+                  <h3>توصيل سريع</h3>
+                  <p>نوصّل طلباتك في أسرع وقت لجميع المناطق.</p>
+            </div>
+      </section>
+
+      <footer>
+            <p>© 2025 lensShop. جميع الحقوق محفوظة.</p>
+      </footer>
+</body>
+
+</html>
